@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.payment-form {
+    width: 100%;
+}
+
+.payment-details {
+    margin-bottom: 30px;
+}
+
+.payment-details h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.icon-container i {
+    font-size: 36px;
+    margin-right: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #666;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    border-color: #4CAF50;
+}
+
+.expiry-cvv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-50 {
+    width: 48%;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.btn {
+    width: 45%;
+    height: 40px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit {
+    background-color: #4CAF50;
+}
+
+.btn-reset {
+    background-color: #f44336;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn-submit:hover,
+.btn-reset:hover {
+    opacity: 0.9;
+}

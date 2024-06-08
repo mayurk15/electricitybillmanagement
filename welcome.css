@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+.payment-form {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.payment-methods {
+    margin-top: 50px;
+}
+
+.payment-methods ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.payment-methods ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.payment-methods ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.payment-methods ul li a:hover {
+    color: #0056b3;
+}
+/* Add this CSS at the end of your existing styles */
+
+/* Style for the message container */
+.message {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding around the message */
+    margin-top: 20px; /* Spacing between message and form */
+    max-width: 500px; /* Limit width of the message container */
+    margin-left: auto; /* Center message horizontally */
+    margin-right: auto;
+}
+
+/* Style for the bill amount */
+.message p {
+    font-size: 24px; /* Increase font size */
+    color: #333; /* Change text color */
+    font-weight: bold; /* Make text bold */
+    text-align: center; /* Center-align the text */
+}
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 
+
+
+
+
+
